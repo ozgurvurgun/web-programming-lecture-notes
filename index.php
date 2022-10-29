@@ -22,10 +22,10 @@
         <div class="row justify-content-center mt-5">
             <div class="col-6 border">
                 <form id="ajax">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Karesini Almak istediğin sayıyı gir</label>
-                        <input type="text" class="form-control" id="square" name="sayi1">
-                        <div class="mb-3">
+                    <div class="mb-3 mt-2">
+                        <label for="exampleInputEmail1" class="form-label"><h4>Karesini Almak istediğin sayıyı gir</h4></label>
+                        <input type="text" class="form-control form-control-lg" id="square" name="sayi1">
+                        <div class="mb-3 mt-2">
                             <h1 id="result"></h1>
                         </div>
                 </form>
@@ -38,10 +38,10 @@
         <div class="row justify-content-center mt-5 mb-5">
             <div class="col-6 border">
                 <form id="ajaxTwo">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"> Kendisine kadar olan bütün sayıların karesini almak istediğin sayıyı gir.</label>
-                        <input type="text" class="form-control" id="squareTwo" name="sayi2">
-                        <div class="mb-3">
+                    <div class="mb-3 mt-2">
+                        <label for="exampleInputEmail1" class="form-label"><h4>Kendisine kadar olan bütün sayıların karesini almak istediğin sayıyı gir.</h4></label>
+                        <input type="text" class="form-control form-control-lg" id="squareTwo" name="sayi2">
+                        <div class="mb-3 mt-2">
                             <h1 id="result2"></h1>
                         </div>
                     </div>
@@ -82,15 +82,15 @@
 
                     <div class="mb-4">
                         <label style="font-size:25px ;" for="midterm-note" class="form-label"><b>Vize Notun</b></label>
-                        <input style="text-align: center;" type="text" class="form-control" name="midterm-note" placeholder="" required>
+                        <input style="text-align: center;" type="text" class="form-control form-control-lg" name="midterm-note" placeholder="" required>
                     </div>
                     <div class="mb-4">
                         <label style="font-size:25px ;" for="final-note" class="form-label"><b>Final Notun</b></label>
-                        <input style="text-align: center;" type="text" class="form-control" name="final-note" placeholder="" required>
+                        <input style="text-align: center;" type="text" class="form-control form-control-lg" name="final-note" placeholder="" required>
                     </div>
                 </form>
 
-                <div class="mb-5 mt-5">
+                <div class="mb-4 mt-3">
                     <h3 id="result3"></h3>
                 </div>
             </div>
@@ -104,10 +104,12 @@
         <div class="row justify-content-center mt-5 mb-5">
             <div class="col-6 border">
                 <form id="ajaxFactorial">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label"> Faktoriyelini almak istediğin sayıyı gir.</label>
-                        <input type="text" class="form-control" id="factorial" name="factorialNumber">
-                        <div class="mb-3">
+                    <div class="mb-3 mt-2">
+                        <label for="exampleInputEmail1" class="form-label"><h4>Faktoriyelini almak istediğin sayıyı gir.</h4></label>
+                        <input type="text" class="form-control form-control-lg" id="factorial" name="factorialNumber">
+                        <div id="emailHelp" class="form-text"><b>0</b> faktoriyel <b>1</b> e eşittir</div>
+
+                        <div class="mb-3 mt-2">
                             <h1 id="resultFactor"></h1>
                         </div>
                     </div>
